@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs
+ ================================================== -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Font Awesome, the iconic font and CSS framework">
+    <meta name="author" content="Dave Gandy">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <title>使用教程</title>
+    <link rel="stylesheet" href="assets/css/site.css">
+    <link rel="stylesheet" href="assets/css/pygments.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  <div id="wrap">
+    <div class="collapse" id="banner">
+  <div class="container">
+    <div class="message-container">
+      <div class="tagline">
+        <span id="rotating-message"></span>
+      </div>
+      <div class="action">
+        <a id="rotating-url" class="btn btn-primary btn-block" href=""></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-inverse navbar-static-top hidden-print">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">导航</span> <i class="fa fa-bars fa-lg"></i>
+            </button>
+            <a class="navbar-brand" href="index.html"> <i class="fa fa-flag"></i>
+                Font Awesome
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="hidden-sm">
+                    <a href="index.html">首页</a>
+                </li>
+                <li class="hidden-sm">
+                    <a href="whats-new.html">最新版本</a>
+                </li>
+                <li class="hidden-xs hidden-md hidden-lg">
+                    <a href="whats-new.html">最新</a>
+                </li>
+                <li class="active">
+                    <a href="get-started.html">使用教程</a>
+                </li>
+                <li class="dropdown-split-left">
+                    <a href="icons.html">图标集合</a>
+                </li>
+                <li class="dropdown dropdown-split-right hidden-xs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                                <li>
+                                    <a href="icons.html" title="所有图标">
+                                        <i class="fa fa-flag fa-fw"></i>
+                                        &nbsp; 所有图标
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="icons.html#new" title="4.4版本新图标">
+                                        <i class="fa fa-diamond fa-fw"></i>
+                                        &nbsp; 4.4版本新图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#web-application" title="网页常用图标">
+                                        <i class="fa fa-camera-retro fa-fw"></i>
+                                        &nbsp; 网页常用图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#hand" title="手势动作图标">
+                                        <i class="fa fa-hand-spock-o fa-fw"></i>
+                                        &nbsp; 手势动作图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#transportation" title="运输交通图标">
+                                        <i class="fa fa-ship fa-fw"></i>
+                                        &nbsp; 运输交通图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#gender" title="性别类图标">
+                                        <i class="fa fa-venus fa-fw"></i>
+                                        &nbsp; 性别类图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#file-type" title="文件类型图标">
+                                        <i class="fa fa-file-image-o fa-fw"></i>
+                                        &nbsp; 文件类型图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#spinner" title="旋转类图标">
+                                        <i class="fa fa-spinner fa-fw"></i>
+                                        &nbsp; 旋转类图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#form-control" title="表单控制图标">
+                                        <i class="fa fa-check-square fa-fw"></i>
+                                        &nbsp; 表单控制图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#payment" title="网银支付图标">
+                                        <i class="fa fa-credit-card fa-fw"></i>
+                                        &nbsp; 网银支付图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#chart" title="图表类图标">
+                                        <i class="fa fa-pie-chart fa-fw"></i>
+                                        &nbsp; 图表类图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#currency" title="货币图标">
+                                        <i class="fa fa-won fa-fw"></i>
+                                        &nbsp; 货币图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#text-editor" title="文字编辑器图标">
+                                        <i class="fa fa-file-text-o fa-fw"></i>
+                                        &nbsp; 文字编辑器图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#directional" title="方向箭头图标">
+                                        <i class="fa fa-arrow-right fa-fw"></i>
+                                        &nbsp; 方向箭头图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#video-player" title="视频播放器图标">
+                                        <i class="fa fa-play-circle fa-fw"></i>
+                                        &nbsp; 视频播放器图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#brand" title="品牌类图标">
+                                        <i class="fa fa-github fa-fw"></i>
+                                        &nbsp; 品牌类图标
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="icons.html#medical" title="医疗类图标">
+                                        <i class="fa fa-medkit fa-fw"></i>
+                                        &nbsp; 医疗类图标
+                                    </a>
+                                </li>
+                            </ul>
+                </li>
+                <li class="dropdown-split-left">
+                    <a href="examples.html">案例说明</a>
+                </li>
+                <li class="dropdown dropdown-split-right hidden-xs">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                            <li>
+                                <a href="examples.html">案例</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="examples.html#basic">Basic Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#larger">Larger Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#fixed-width">Fixed Width Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#list">List Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#bordered-pulled">Bordered & Pulled Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#animated">Animated Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#rotated-flipped">Rotated &amp; Flipped Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#stacked">Stacked Icons</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#bootstrap">Bootstrap 3 Examples</a>
+                            </li>
+                            <li>
+                                <a href="examples.html#custom">Custom CSS</a>
+                            </li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="community.html">Font Awesome社区</a>
+                </li>
+                <li>
+                    <a href="license.html">许可证</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="http://blog.fontawesome.io/">博客</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    
+
+
+<div class="jumbotron jumbotron-ad hidden-print">
+  <div class="container">
+    <h1><i class="fa fa-cogs"></i>&nbsp; Get Started</h1>
+    <p>很简单的把Font Awesome 4.4.0 添加到你的网站</p>
+  </div>
+</div>
+
+<div id="social-buttons" class="hidden-print">
+  <div class="container">
+    <form id="newsletter" method="post" action="#">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2 col-sm-6">
+                <div class="form-group margin-bottom">
+                    <input name="email" type="email" class="form-control" id="email" placeholder="请填写你的邮箱地址…" required></div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <button type="submit" class="btn btn-success btn-block margin-bottom-lg" data-toggle="popover" data-trigger="hover" data-placement="top" title="保持最新的Font Awesome" data-content="我们将会发送一封最新字体的版本，字体以及包含一些其他的材料的邮件给你，我们不会发垃圾邮件">订阅Fontawesome字体更新&nbsp;&nbsp;
+                <i class="fa fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <ul class="list-inline">
+      <li>
+        <!-- QQqun1 -->
+      </li>
+      <li>
+        <!-- QQqun2 -->
+      </li>
+      <li class="follow-btn">
+        <!-- QQqun3 -->
+      </li>
+      <li class="tweet-btn hidden-phone">
+        <!-- QQqun4 -->
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="container">
+<section>
+    <div class="row hidden-print">
+        <div class="col-md-9">
+            <p class="lead">
+            只需两行代码就可以把Font Awesome添加到你的网站，或者你可以自己订制一个专业的字体，Font Awesome甚至对<a href="http://getbootstrap.com/">Bootstrap 3</a>也很友好！
+            </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+              <!-- Advertise -->
+          </p>
+        </div>
+    </div>
+</section>
+
+
+
+  <div id="bootstrapcdn">
+    <h2 class="page-header">简易: <a href="http://www.bootstrapcdn.com/#fontawesome_tab target="_blank" ">BootstrapCDN</a> by <a href="http://tracking.maxcdn.com/c/148092/3982/378 target="_blank" ">MaxCDN</a></h2>
+    <p>感谢 <a href="http://tracking.maxcdn.com/c/148092/3982/378">MaxCDN</a>，你可以使用bootstrap CDN 来引用一行代码把fontawesome 添加到你的网站，你甚至不用下载和安装任何东西
+    </p>
+    <ol>
+      <li>
+        <!-- Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML. -->
+        将下面的代码复制粘贴到HTML页面面的<code>&lt;head&gt;</code>下面
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css&quot;</span><span class="nt">&gt;</span>
+</code></pre></div>
+        <p class="alert alert-success"><i class="fa fa-info-circle"></i> 发布之后需要一点时间来获取最新版本的BootstrapCDN缓存</p>
+      </li>
+      <li>
+        Pat yourself on the back for your scalable-vector-icons-on-the-website
+        <a href="http://37signals.com/svn/posts/312-lingo-judo">judo solution</a> in a single line of code.
+      </li>
+      <li>
+        查看使用FontAwesome的<a href="examples.html"> 案例说明</a>
+      </li>
+    </ol>
+  </div>
+
+  <section id="default-css">
+    <h2 class="page-header">简易: 默认的 CSS</h2>
+    <p>使用默认的方法去加载 Font Awesome CSS.</p>
+    <ol>
+      <li>复制完整的<code>font-awesome</code>目录到你的项目。</li>
+      <li>在HTML的<code>&lt;head&gt;</code>里面引用 font-awesome.min.css，注意路径！
+        <!-- In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css. -->
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;path/to/font-awesome/css/font-awesome.min.css&quot;</span><span class="nt">&gt;</span>
+</code></pre></div>
+      </li>
+      <li>点击查看<a href="examples.html"> 案例说明</a></li>
+    </ol>
+  </section>
+
+  <section id="ruby-gem-less">
+    <h2 class="page-header"><a href="https://github.com/FortAwesome/font-awesome-less">Font Awesome LESS</a></h2>
+    <p>
+      使用官方的Font Awesome LESS能很容易的把Font Awesome LESS插入到你的项目中
+    </p>
+    <ol>
+      <li>
+        把这一行加入到你应用中的Gem文件中
+<div class="highlight"><pre><code class="bash">gem <span class="s1">&#39;font-awesome-less&#39;</span>
+</code></pre></div>
+      </li>
+      <li>
+        然后执行:
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>bundle
+</code></pre></div>
+      </li>
+      <li>或者你自己来安装它:
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>gem install font-awesome-less
+</code></pre></div>
+      </li>
+    </ol>
+    <p>
+    如果你用的是Rails, 把这个增加到你的实例中. <code>application.less</code>:
+    </p>
+<div class="highlight"><pre><code class="css">  <span class="k">@import</span> <span class="s2">&quot;font-awesome-sprockets&quot;</span><span class="p">;</span>
+  <span class="k">@import</span> <span class="s2">&quot;font-awesome&quot;</span><span class="p">;</span>
+</code></pre></div>
+  </section>
+
+  <section id="ruby-gem-sass">
+    <h2 class="page-header"><a href="https://github.com/FortAwesome/font-awesome-sass">Font Awesome SASS</a></h2>
+    <p>
+      使用FontAwesome官方的SASS Ruby Gem，你可以轻松的把SASS加入到Rails或Compass项目中。
+    </p>
+    <ol>
+      <li>
+        把这一行加入到你应用中的Gem文件中:
+<div class="highlight"><pre><code class="bash">gem <span class="s1">&#39;font-awesome-sass&#39;</span>
+</code></pre></div>
+      </li>
+      <li>
+        然后执行:
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>bundle
+</code></pre></div>
+      </li>
+      <li>或者你自己来安装它:
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>gem install font-awesome-sass
+</code></pre></div>
+      </li>
+    </ol>
+    <p>
+    如果你用的是Rails, 把这个增加到你的实例中. <code>application.scss</code>:
+    </p>
+<div class="highlight"><pre><code class="css">  <span class="k">@import</span> <span class="s2">&quot;font-awesome-sprockets&quot;</span><span class="p">;</span>
+  <span class="k">@import</span> <span class="s2">&quot;font-awesome&quot;</span><span class="p">;</span>
+</code></pre></div>
+  </section>
+
+  <section id="custom-less">
+    <h2 class="page-header">订制 LESS or SASS</h2>
+    <p>使用以下方法来订制Font Awesome 4.4.0 用于LESS或SASS</p>
+    <ol>
+      <li>复制 <code>font-awesome/</code> 目录到你的项目。</li>
+      <li>
+        打开你的项目 <code>font-awesome/less/variables.less</code> 或 <code>font-awesome/scss/_variables.scss</code> 然后编辑 <code>@fa-font-path</code> 或 <code>$fa-font-path</code>
+        变量来指向你的字体目录.
+<div class="highlight"><pre><code class="scss"><span class="k">@fa-font-path</span><span class="nd">:</span>   <span class="s2">&quot;../font&quot;</span><span class="o">;</span>
+</code></pre></div>
+        <p class="alert alert-success"><i class="fa fa-info-circle"></i> 字体的路径是相对与css的目录.</p>
+      </li>
+      <li>如果你使用静态的编译器，则需要重新编译你的 LESS 或 SASS.</li>
+      <li>点击查看<a href="examples.html"> 案例说明</a></li>
+    </ol>
+  </section>
+
+  <section id="support-validators">
+    <h2 class="page-header">验证器</h2>
+    <p>In order to provide the best possible experience to old and buggy browsers, Font Awesome uses <a href="http://browserhacks.com/">CSS browser hacks</a> in several places to target special CSS to certain browser versions in order to work around bugs in the browsers themselves. These hacks understandably cause CSS validators to complain that they are invalid. In a couple places, we also use bleeding-edge CSS features that aren't yet fully standardized, but these are used purely for progressive enhancement.</p>
+    <p>These validation warnings don't matter in practice since the non-hacky portion of our CSS does fully validate and the hacky portions don't interfere with the proper functioning of the non-hacky portion, hence why we deliberately ignore these particular warnings.</p>
+  </section>
+
+  <section id="ie8-font-face">
+    <h2 class="page-header">Internet Explorer 8 and @font-face</h2>
+    <p>
+      IE8 has some issues with <code>@font-face</code> when combined with <code>:before</code>.
+      Font Awesome uses that combination. If a page is cached, and loaded without the mouse over the window
+      (i.e. hit the refresh button or load something in an iframe) then the page gets rendered before the font loads.
+      Hovering over the page (body) will show some of the icons and hovering over the remaining icons will show those as well.
+      <a href="https://github.com/FortAwesome/Font-Awesome/issues/954">See issue #954</a> for details.
+    </p>
+  </section>
+
+  <section id="need-ie7">
+    <h2 class="page-header">需要 IE7 支持?</h2>
+    <p>
+      If you need IE7 support, you have my condolences. Really. Font Awesome 4.4.0
+      doesn't support IE7, but an older version does. You'll need to check out the
+      <a href="http://fontawesome.io/3.2.1/get-started/#need-ie7">3.2.1 instructions for using IE7</a>. Then go complain to
+      whomever decided your project needs IE7 support.
+    </p>
+  </section>
+
+  <section id="troubleshooting">
+    <h2 class="page-header">问题解决</h2>
+    <p>如果你在使用Font Awesome时还遇到了其他问题，请查看<a href="https://github.com/FortAwesome/Font-Awesome/wiki/Troubleshooting">troubleshooting wiki page</a>.由<a href="https://twitter.com/gtagliala">@gtagliala</a>维护并完善。
+    </p>
+  </section>
+</div>
+
+
+  </div>
+<footer id="footer" class="footer hidden-print">
+    <div class="container text-center">
+        <div id="bsap_1298241" class="bsarocks bsap_b1146e3f9fa32a794fc6d2c7be47ece8">
+            <a href="http://www.wpbeginner.com/?utm_source=fontawesome_footer&utm_medium=banner&utm_campaign=fontawesome" title="Beginner's Guide to WordPress" target="_blank" rel="nofollow">
+                <img src="assets/img/logo-wpbeginner.png" width="220" height="65" alt=""></a>
+            <a href="https://themeisle.com/?utm_source=fontawesome_footer&utm_medium=banner&utm_campaign=fontawesome" title="Beginner's Guide to WordPress" target="_blank" rel="nofollow">
+                <img src="assets/img/logo-themeisle.png" width="220" height="65" alt=""></a>
+        </div>
+        <div>
+            <i class="fa fa-flag"></i>
+            Font Awesome 4.4.0
+            <span class="hide-xs">&middot;</span>
+            <br class="hide-sm hide-md hide-lg">
+            Created by
+            <a href="https://twitter.com/davegandy">Dave Gandy</a>
+        </div>
+        <div>
+            Font Awesome licensed under
+            <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>
+            <span class="hide-xs">&middot;</span>
+            <br class="hide-sm hide-md hide-lg">
+            Code licensed under
+            <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>
+            <span class="hide-xs hide-sm">&middot;</span>
+            <br class="hide-md hide-lg">
+            Documentation licensed under
+            <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+        </div>
+        <div>
+            Thanks to
+            <a href="http://tracking.maxcdn.com/c/148092/3982/378/">
+                <i class="fa fa-maxcdn"></i>
+                MaxCDN
+            </a>
+            for providing the excellent
+            <a href="http://www.bootstrapcdn.com/#fontawesome_tab">BootstrapCDN for Font Awesome</a>
+        </div>
+        <div class="project">
+            <a href="https://github.com/FortAwesome/Font-Awesome">GitHub Project</a>
+            &middot;
+            <a href="https://github.com/FortAwesome/Font-Awesome/issues">Issues</a>
+            &middot;
+            <a href="3.2.1.html">Old 3.2.1 Docs</a>
+        </div>
+    </div>
+</footer>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/tabcomplete.min.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
